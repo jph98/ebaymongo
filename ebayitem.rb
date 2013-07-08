@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'rubygems'
 require 'mongo_mapper'
 
 MongoMapper.connection = Mongo::Connection.from_uri('mongodb://localhost:27017')
