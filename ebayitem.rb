@@ -50,3 +50,6 @@ items.each do |i|
 	puts i.to_mongo()
 end
 
+item = Item.find_by_price(2.50)
+puts "Dynamic finder #{item.to_mongo()}"
+
